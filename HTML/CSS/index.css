@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;    
+}
+header .navbar{
+    display: flex;
+    flex-flow:row; 
+    list-style: none;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    right: 90px;
+    bottom: 15px;
+    float: right; 
+}
+header .navbar li{
+    margin: 10px;
+    padding: 10px;
+
+}
+.navbar li a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    display: block;
+}
+.High-Img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 70%;
+    width: 95%;
+    object-fit: cover;
+    transform: scale(1.1);
+    opacity: 1;
+}
+.Zomato-logo{
+    position: absolute;
+    top: 111px;
+    left: 0px;
+    height: 11%;
+    width: 100%;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+}
+.h1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-top: 13rem;
+    left: 21rem;
+    font-size: 2rem;
+}
+.input-1{
+    position: absolute;
+    text-align:center;
+    left: 286px;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.4rem;
+    margin: 269px 1rem 0px 0.5rem;
+    
+}
+input::placeholder{
+    font-size: 15px;
+    float: left;
+    margin: 13px 2rem 0px 2rem;
+    
+
+}
+.input-2{
+    position: absolute;
+    text-align:center;
+    left: 500px;
+    width: 29rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.4rem;
+    margin: 269px 1rem 0px 0.5rem;
+}
+.work_container{
+    display: flex;
+    flex-flow:row; 
+}
+.work_container h3{
+    margin-top: -136px;
+    color: black;
+    position: sticky;
+    background-color: white;
+    margin-left: 81px;
+    font-size: x-large
+}
+.work_container h4{
+    background-color: white;
+    color: black;
+    position: sticky;
+    margin-left: 81px;
+    margin-top: 12px;
+}
+.img-call{
+    margin-top: 400px;
+    padding: 56px;
+    border-radius: 4rem;
+    height: 320px;
+    width: 440px;
+    margin-left: -20px;
+}
