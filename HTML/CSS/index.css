@@ -113,4 +113,10 @@ input::placeholder{
     height: 320px;
     width: 440px;
     margin-left: -20px;
+    transition: 0.5s;
+}
+.img-call:hover{
+    transform: scale(1.1);
+    z-index: 2;
+
 }
